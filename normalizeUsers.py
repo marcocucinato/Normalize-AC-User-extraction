@@ -4,6 +4,7 @@ import csv
 import sys
 import os
 
+# to be commented
 def duplicate_lines_with_commas(input_file, output_file):
     with open(input_file, 'r', encoding="utf-8") as csv_file:
         reader = csv.reader(csv_file)
